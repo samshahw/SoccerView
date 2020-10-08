@@ -1,3 +1,4 @@
 .idea/
 out/
 *.iml
+src/it/mtss/soccerview/utils/Connector
