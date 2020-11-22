@@ -19,7 +19,8 @@ public class Main extends Application {
 
     // Define both the main view and stage
     BorderPane mainView = new BorderPane();
-    primaryStage.setScene(new Scene(mainView, 1680, 960));
+    Scene scene = new Scene(mainView, 1680, 960);
+    primaryStage.setScene(scene);
     primaryStage.setTitle("SoccerView");
 
     // Top banner
@@ -37,9 +38,11 @@ public class Main extends Application {
     // Footer
     mainView.setBottom(new Footer().getFooter());
 
+    // Style the scene
+    scene.getStylesheets().add("it/mtss/soccerview/css/players.css");
+
     // Show the scene
     primaryStage.show();
-
   }
 
 }

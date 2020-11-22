@@ -1,0 +1,33 @@
+/* * * * * * * * * *
+ *   SIDE MENU     *
+ * * * * * * * * * */
+#sidemenu .button {
+  -fx-background-color: #04ab6e;
+  -fx-text-fill: white;
+  -fx-min-height: 20px;
+  -fx-padding: 10px 10px 10px 20px;
+  -fx-alignment: left;
+}
+
+#sidemenu .button SVGPath {
+  -fx-fill: white;
+}
+
+/* * * * * * * * * *
+ *   PLAYERS LIST  *
+ * * * * * * * * * */
+
+
+/* * * * * * * * * *
+ *   PLAYERS FORM  *
+ * * * * * * * * * */
+
+/*
+TODO
+  SIDEMENU:
+  - icons to the left
+  - spacing icon-text
+  - more height
+  - little more spacing
+  - background: #04ab6e, text/icons: white
+ */
